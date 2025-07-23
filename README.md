@@ -21,18 +21,18 @@ This project demonstrates a complete ETL pipeline using Docker and Apache Airflo
 
 
 📂 Project Structure
-.
-├── dags/ <br>
-│   ├── etl_dag.py          # Main Airflow DAG to orchestrate all tasks<br>
-│   ├── source.py           # Fetches data from MockAPI and saves locally<br>
-│   ├── localtos3.py        # Uploads local file to AWS S3<br>
-│   ├── runcrawler.py       # Triggers AWS Glue Crawler<br>
-│   └── runathena.py        # Runs Athena SQL queries<br>
-├── docker-compose.yml      # Docker Compose setup for Airflow<br>
-├── .env                    # AWS credentials and env configs (ignored)<br>
-├── README.md<br>
-|-- data/<br>
-    |--products.json<br>
+---
+    ├── dags/ <br>
+    │   ├── etl_dag.py          # Main Airflow DAG to orchestrate all tasks<br>
+    │   ├── source.py           # Fetches data from MockAPI and saves locally<br>
+    │   ├── localtos3.py        # Uploads local file to AWS S3<br>
+    │   ├── runcrawler.py       # Triggers AWS Glue Crawler<br>
+    │   └── runathena.py        # Runs Athena SQL queries<br>
+    ├── docker-compose.yml      # Docker Compose setup for Airflow<br>
+    ├── .env                    # AWS credentials and env configs (ignored)<br>
+    ├── README.md<br>
+    |-- data/<br>
+        |--products.json<br>
 
 
 🚀 Getting Started
