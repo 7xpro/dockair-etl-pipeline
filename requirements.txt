@@ -1,0 +1,5 @@
+Requests
+boto3
+dotenv
+pandas
+
