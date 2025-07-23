@@ -46,7 +46,7 @@ This project demonstrates a complete ETL pipeline using Docker and Apache Airflo
      
         
 1 - Setup Instructions:
-<br>
+
     - clone this repository:
     
            - git clone https://github.com/7xpro/dockair-etl-pipeline.git
