@@ -22,17 +22,17 @@ This project demonstrates a complete ETL pipeline using Docker and Apache Airflo
 
 📂 Project Structure
 ---
-    ├── dags/ <br>
-    │   ├── etl_dag.py          # Main Airflow DAG to orchestrate all tasks<br>
-    │   ├── source.py           # Fetches data from MockAPI and saves locally<br>
-    │   ├── localtos3.py        # Uploads local file to AWS S3<br>
-    │   ├── runcrawler.py       # Triggers AWS Glue Crawler<br>
-    │   └── runathena.py        # Runs Athena SQL queries<br>
-    ├── docker-compose.yml      # Docker Compose setup for Airflow<br>
-    ├── .env                    # AWS credentials and env configs (ignored)<br>
-    ├── README.md<br>
-    |-- data/<br>
-        |--products.json<br>
+    ├── dags/ 
+    │   ├── etl_dag.py          # Main Airflow DAG to orchestrate all tasks
+    │   ├── source.py           # Fetches data from MockAPI and saves locally
+    │   ├── localtos3.py        # Uploads local file to AWS S3
+    │   ├── runcrawler.py       # Triggers AWS Glue Crawler
+    │   └── runathena.py        # Runs Athena SQL queries
+    ├── docker-compose.yml      # Docker Compose setup for Airflow
+    ├── .env                    # AWS credentials and env configs
+    ├── README.md
+    |-- data/
+        |--products.json
 
 
 🚀 Getting Started
@@ -53,18 +53,18 @@ This project demonstrates a complete ETL pipeline using Docker and Apache Airflo
 2 - Add your credentials in a .env file
   --
 
-     - BUCKET_NAME=s3bucket_name<br>
-     - FILE_KEY=key_to_file.json<br>
-     - CRAWLER_NAME= crawler_name<br>
-     - REGION_NAME=ap-south-1 # region for AWS services<br>
-     - DATABASE_NAME=database_name # name of the database for crawler<br>
-     - OUTPUT_BUCKET=s3://outbucket_for_athena_query_results<br>
-     - TABLE_NAME=table_name_created_by_crawler<br>
-     - AWS_ACCESS_KEY_ID=aw_access_key_id<br>
-     - AWS_SECRET_ACCESS_KEY=aws_secret_access_key<br>
-     - AWS_DEFAULT_REGION=ap-south-1 #region for AWS services<br>
+     - BUCKET_NAME=s3bucket_name
+     - FILE_KEY=key_to_file.json
+     - CRAWLER_NAME= crawler_name
+     - REGION_NAME=ap-south-1 # region for AWS services
+     - DATABASE_NAME=database_name # name of the database for crawler
+     - OUTPUT_BUCKET=s3://outbucket_for_athena_query_results
+     - TABLE_NAME=table_name_created_by_crawler
+     - AWS_ACCESS_KEY_ID=aw_access_key_id
+     - AWS_SECRET_ACCESS_KEY=aws_secret_access_key
+     - AWS_DEFAULT_REGION=ap-south-1 #region for AWS services
       
-      #replace the above values with your actual AWS credentials and configurations<br>
+      #replace the above values with your actual AWS credentials and configurations
 
    
 3 - Start the Airflow environment:
