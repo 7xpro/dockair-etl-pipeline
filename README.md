@@ -45,7 +45,9 @@ This project demonstrates a complete ETL pipeline using Docker and Apache Airflo
       - Athena
      
         
-1 - Setup Instructions:
+1 - Setup Instructions
+<br>
+ --
 
     - clone this repository:
     
