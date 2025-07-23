@@ -77,6 +77,7 @@ This project demonstrates a complete ETL pipeline using Docker and Apache Airflo
 
 <br>
 🧪 Technologies Used:
+
     - Docker<br>
     - Airflow<br>
     - AWS S3<br>
