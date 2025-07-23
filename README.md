@@ -36,6 +36,7 @@ This project demonstrates a complete ETL pipeline using Docker and Apache Airflo
 
 
 🚀 Getting Started
+
   - Prerequisites:
     - Docker
     - AWS credentials with access to:
@@ -45,11 +46,13 @@ This project demonstrates a complete ETL pipeline using Docker and Apache Airflo
      
         
 1 - Setup Instructions:
-   - clone this repository:
-       - git clone https://github.com/7xpro/dockair-etl-pipeline.git
-       - cd dockair-etl-pipeline
+<br>
+    - clone this repository:
     
-     <br>
+           - git clone https://github.com/7xpro/dockair-etl-pipeline.git
+           - cd dockair-etl-pipeline
+    
+     
 2 - Add your credentials in a .env file
   --
 
