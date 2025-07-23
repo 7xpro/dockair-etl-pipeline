@@ -2,6 +2,7 @@
 
 This project demonstrates a complete ETL pipeline using Docker and Apache Airflow to orchestrate tasks that fetch data from a public API, store it locally, upload it to AWS S3, trigger a Glue Crawler to update schema, and query the data using AWS Athena.
 
+Linkedin profile  -  https://www.linkedin.com/in/arshad-khan-a702a9222/
 
 📌 Key Features
 
