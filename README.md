@@ -51,16 +51,16 @@ This project demonstrates a complete ETL pipeline using Docker and Apache Airflo
 2 - Add your credentials in a .env file
   --
 
-      BUCKET_NAME=s3bucket_name<br>
-      FILE_KEY=key_to_file.json<br>
-      CRAWLER_NAME= crawler_name<br>
-      REGION_NAME=ap-south-1 # region for AWS services<br>
-      DATABASE_NAME=database_name # name of the database for crawler<br>
-      OUTPUT_BUCKET=s3://outbucket_for_athena_query_results<br>
-      TABLE_NAME=table_name_created_by_crawler<br>
-      AWS_ACCESS_KEY_ID=aw_access_key_id<br>
-      AWS_SECRET_ACCESS_KEY=aws_secret_access_key<br>
-      AWS_DEFAULT_REGION=ap-south-1 #region for AWS services<br>
+     - BUCKET_NAME=s3bucket_name<br>
+     - FILE_KEY=key_to_file.json<br>
+     - CRAWLER_NAME= crawler_name<br>
+     - REGION_NAME=ap-south-1 # region for AWS services<br>
+     - DATABASE_NAME=database_name # name of the database for crawler<br>
+     - OUTPUT_BUCKET=s3://outbucket_for_athena_query_results<br>
+     - TABLE_NAME=table_name_created_by_crawler<br>
+     - AWS_ACCESS_KEY_ID=aw_access_key_id<br>
+     - AWS_SECRET_ACCESS_KEY=aws_secret_access_key<br>
+     - AWS_DEFAULT_REGION=ap-south-1 #region for AWS services<br>
       
       #replace the above values with your actual AWS credentials and configurations<br>
 
