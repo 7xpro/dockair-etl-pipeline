@@ -86,13 +86,13 @@ Linkedin profile  -  https://www.linkedin.com/in/arshad-khan-a702a9222/
 <br>
 🧪 Technologies Used:
 
-    - Docker<br>
-    - Airflow<br>
-    - AWS S3<br>
-    - AWS Glue<br>
-    - AWS Athena<br>
-    - Python<br>
-    - Boto3<br>
+    - Docker
+    - Airflow
+    - AWS S3
+    - AWS Glue
+    - AWS Athena
+    - Python
+    - Boto3
 
 🎥 Demo
 <br>
